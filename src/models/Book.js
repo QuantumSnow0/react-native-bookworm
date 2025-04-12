@@ -16,7 +16,7 @@ const bookShechma = new mongoose.Schema({
         type: Number,
         required: true,
         min: 1,
-        max: 1
+        max: 5
     },
     user: {
         type : mongoose.Schema.Types.ObjectId,
